@@ -4,7 +4,7 @@ import moment from "moment"
 import { useEffect, useState } from "react"
 
 export default function Clock({ darkMode = false }: { darkMode?: boolean }) {
-  const format = "h:mm A"
+  const format = "h:mm:ss A"
   const [time, setTime] = useState(moment().format(format))
 
   useEffect(() => {

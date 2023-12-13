@@ -19,7 +19,7 @@ export default function PrayerTimes({
       tomorrow: tomorrow.fajr,
     },
     {
-      label: "Zuhr",
+      label: "Dhuhr",
       data: today.zuhr,
       tomorrow: tomorrow.zuhr,
     },

@@ -28,7 +28,7 @@ export default function UpcomingPrayerDayTiles({
       </div>
       <div className="bg-mosqueGreen-dark text-white p-4 lg:p-6 lg:col-auto">
         <dt className="text-sm lg:text-2xl font-medium">
-          Zuhr ({times.display_day_label})
+          Dhuhr ({times.display_day_label})
         </dt>
         <dd className="mt-2 text-xl lg:text-3xl font-bold tracking-tight">
           {moment(times.zuhr.congregation_start, ["HH:mm"]).format("h:mm")}

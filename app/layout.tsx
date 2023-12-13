@@ -1,7 +1,7 @@
 import "./globals.css"
 import { Philosopher } from "next/font/google"
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Philosopher({ subsets: ["latin"] })
 
 export const metadata = {
   title: {

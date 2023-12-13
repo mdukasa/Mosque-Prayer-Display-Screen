@@ -22,7 +22,7 @@ const config: Config = {
       },
       colors: {
         mosqueGreen: {
-          highlight: "#00223b",
+          highlight: "#ffef90",
           DEFAULT: "#001524",
           dark: "#00223b",
         },

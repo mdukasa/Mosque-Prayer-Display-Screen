@@ -22,7 +22,7 @@ export default function Clock({ darkMode = false }: { darkMode?: boolean }) {
       } p-7 text-center md:text-left md:w-fit`}
     >
       <time
-        className={`text-4xl md:text-7xl font-bold ${
+        className={`text-5xl md:text-8xl font-bold ${
           !darkMode ? "text-mosqueGreen" : "text-gray-500"
         }`}
       >
